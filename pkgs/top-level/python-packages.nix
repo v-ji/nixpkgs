@@ -11526,6 +11526,8 @@ self: super: with self; {
     inherit (pkgs) graphviz;
   };
 
+  pydracor = callPackage ../development/python-modules/pydracor { };
+
   pydrawise = callPackage ../development/python-modules/pydrawise { };
 
   pydrive2 = callPackage ../development/python-modules/pydrive2 { };
